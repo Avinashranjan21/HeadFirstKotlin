@@ -1,11 +1,11 @@
-
+package chapter_one
 
 fun main(){
     val options = arrayOf("Rock","Paper","Scissors")
     val gameChoice = getGameChoice(options)
     println("Option selected by computer is $gameChoice")
     val userChoice = getUserChoice(options)
-    printResult(userChoice,gameChoice)
+    printResult(userChoice, gameChoice)
 }
 
 fun getGameChoice(optionParam:Array<String>) =

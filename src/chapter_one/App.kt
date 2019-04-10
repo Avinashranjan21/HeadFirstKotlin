@@ -1,9 +1,11 @@
+package chapter_one
+
 /**
- * Whenever you write a Kotlin application, you must add a function to it called main,
+ * Whenever you write a Kotlin application, you must add a function to it called chapter_one.main,
  * which starts your application. When you run your code, the JVM looks for this function,
  * and executes it.
  *
- * From Kotlin1.3, however, you can omit main’s parameters so that the
+ * From Kotlin1.3, however, you can omit chapter_one.main’s parameters so that the
  * function looks like this
  * */
 
